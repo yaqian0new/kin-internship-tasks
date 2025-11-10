@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .navbar::after {
+    content: '☰';
+    font-size: 20px;
+    cursor: pointer; 
+  }
+}
+/* My problem is that while the ☰ existing, clicking on it does not show the detail of the menu. */
